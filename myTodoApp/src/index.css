@@ -1,0 +1,83 @@
+h1 {
+    font-size: 35px;
+}
+h1, h2 {
+     margin-right: 4px;
+     font-weight: 300;
+    color: skyblue;
+}
+.task-text {
+     margin: 10px;
+     padding: 10px;
+     font-size: 1.5em;
+     font-family: cursive;
+    color: mediumorchid; 
+}
+.tasks {
+     list-style: none;
+     margin: 10px;
+     padding: 10px;
+     line-height: 50px;
+    color: antiquewhite;
+}
+.task-text:hover {
+    font-weight: bolder;
+    font-size: 30px;
+}
+.task-deadline {
+     margin: 10px;
+     padding: 10px;
+     font-size: 1em;
+     font-family: monospace;
+}
+.task-deadline:hover {
+    font-weight: bolder;
+    font-size: 15px;
+}
+body {
+    margin-left: 45%;
+    padding: 1;
+    font-family: sans-serif;
+    background-image: url("./backGround.jpg");
+	background-attachment: fixed;
+	background-position: center;
+	background-size: 99%;
+}
+.counter:hover{
+    font-weight: bolder;
+    font-size: 30px;  
+}
+.done{
+    text-decoration: line-through;
+    opacity: 50%;
+}
+.form {
+    display: flex;
+    flex-wrap: wrap;
+}
+.Button {
+    background: transparent;
+    margin: 10px;
+    border: none;
+    font-family: serif;
+    color: rosybrown;
+    font-weight: bold;
+    font-size: 15px;
+}
+.Button:hover {
+    font-weight: bolder;
+    font-size: 18px;
+}
+.TextField-singleline {
+    margin-right: 5px;
+    background: transparent;
+    border: none;
+    border-radius: 5px;
+    border: 2px solid white;
+    font-family: monospace;
+    color: snow;
+    padding: 20px;
+}
+.TextField-singleline:focus {
+    outline: none;
+}
